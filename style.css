@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.6;
+  background-color:  #FFFFF0;
+  color: darkblue;
+}
+
+header{
+  background:  #F3F0E8;
+  color: darkblue;
+  padding: 40px 20px;
+  text-align: center ;
+}
+header h1{
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+nav{
+  background: whitesmoke;
+  text-align: center;
+  padding: 10px 0;
+}
+nav a{
+    color: darkblue;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.section{
+  padding: 50px 20px;
+  max-width: 1000px;
+  margin: auto;
+  
+}
+.section h2{
+  color: darkblue;
+  bottom: 20px;
+}
+
+.image-gallery{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.image-gallery div{
+  text-align: center;
+  width: 35%;
+}
+
+.image-gallery img{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+ul{
+  list-style: square;
+  padding-left: 20px;
+}
+
+.cta a{
+ background: darkred;
+ color: white;
+ padding: 12px 25px;
+ text-decoration: none;
+ font-weight: bold;
+ border-radius: 5px;
+}
+
+.cta{
+    text-align: center;
+  padding: 50px 20px;
+  background-color: whitesmoke;
+  color: darkblue;
+}
